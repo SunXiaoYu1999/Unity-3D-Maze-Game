@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GenMaze" Collapsed="true">
+    <Position X="35.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAQA6QCQiAAIQBiFQkEAAIAAAyAgEAQAAIMAAAgADI=</HashCode>
+      <FileName>Assets\Scripts\Genrate\GenMaze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenPlane" Collapsed="true">
+    <Position X="37.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAQAEAAAAAAAAAAAAAkAAAAAAAABAgEQ=</HashCode>
+      <FileName>Assets\Scripts\Genrate\GenPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstVariable" Collapsed="true">
+    <Position X="44.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAICAAEAEAAAAIQAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Global\ConstVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeManagement" Collapsed="true">
+    <Position X="48" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Global\MazeManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeUtils" Collapsed="true">
+    <Position X="35.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAEQQAAAAAIAAIAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Global\MazeUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhraseTest" Collapsed="true">
+    <Position X="39.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Network Learn\PhraseTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColoredObject">
+    <Position X="24" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAQAAAAAACAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ColoredObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraggedObject">
+    <Position X="28.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAAABAAAAAAQAAAAAAAAAKABAAAkA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\DraggedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleCar">
+    <Position X="18.5" Y="23" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAgABAAAAAAAAAAAAAAAEAAAAAAACAEAACAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleCarGUI" Collapsed="true">
+    <Position X="35.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleCarGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleCarNoNetworking">
+    <Position X="18.25" Y="18.25" Width="2.25" />
+    <NestedTypes>
+      <Class Name="ExampleCarNoNetworking.Wheel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Examples\Scripts\ExampleCarNoNetworking.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAgAQAIAIEAAAAAQAIAAAAAAQIgAAAQAAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleCarNoNetworking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleChaseCamera">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAMAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleChaseCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleChaseCameraTarget" Collapsed="true">
+    <Position X="37.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleChaseCameraTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleChat">
+    <Position X="19" Y="10.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ExampleChat.ChatEntry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Examples\Scripts\ExampleChat.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAsAEEAAEAAAAgAEAAAABQIAABIAIIAAiAAAAADAw=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleChat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleCreate" Collapsed="true">
+    <Position X="39.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAAAAAAACAAAAABgAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDestroy">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleError" Collapsed="true">
+    <Position X="41" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleMenu">
+    <Position X="16.25" Y="22.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ExampleMenu.IPType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Examples\Scripts\ExampleMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AATAAQRAACEAAABAAAAQSQAAACgEEBBIACCABAAABEQ=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplePlayerAvatar" Collapsed="true">
+    <Position X="42.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAAACAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExamplePlayerAvatar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleRegion" Collapsed="true">
+    <Position X="44.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACEAAAAAAAAACAAAAAAAAAAIAAAAAAAECIA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ExampleRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImproveLatency" Collapsed="true">
+    <Position X="41" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAIAAACAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\ImproveLatency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveSpinObject">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\MoveSpinObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpringTransform" Collapsed="true">
+    <Position X="35.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAHEABAAAEAAAIAAAAAAAABAIAAACAAAACAA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\SpringTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouchHandler" Collapsed="true">
+    <Position X="35.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAIAAAAAAAAAAIQAACACAAAAAAAAAgAABEA=</HashCode>
+      <FileName>Assets\TNet\Examples\Scripts\TouchHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LZMA" Collapsed="true">
+    <Position X="46.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAIAAACAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\LZMA\LZMA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.BinaryExtensions" Collapsed="true">
+    <Position X="37.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAACgAAAgAA=</HashCode>
+      <FileName>Assets\TNet\Client\BinaryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNAutoCreate" Collapsed="true">
+    <Position X="37.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAABAAAAAAAEAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNAutoCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNAutoJoin" Collapsed="true">
+    <Position X="39.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEACABAAAIIAAEBECAAIAAAAIAAEDEA=</HashCode>
+      <FileName>Assets\TNet\Client\TNAutoJoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNAutoSync">
+    <Position X="26.25" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="TNet.TNAutoSync.SavedEntry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNAutoSync.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TNet.TNAutoSync.ExtendedEntry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNAutoSync.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TNet.TNAutoSync.Par" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNAutoSync.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAiAAgACACAAAAgAAAQQAAAACAIAAEAAAAAGEA=</HashCode>
+      <FileName>Assets\TNet\Client\TNAutoSync.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNBehaviour">
+    <Position X="22.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAABABAEAQAAAAAACAAgAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\TNet\Client\TNBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TNet.EditorTools" Collapsed="true">
+    <Position X="44.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAEAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNEditorTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNEventReceiver">
+    <Position X="16" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAGAAAAAAAAACAAAAAAFAAAIAAAAgAAADAg=</HashCode>
+      <FileName>Assets\TNet\Client\TNEventReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNEvents">
+    <Position X="10.75" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Delegate Name="TNet.TNEvents.OnJoinChannel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnSetAdmin" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnCreate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnError" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnDisconnect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnChatPacket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnLeaveChannel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnForwardedPacket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnLoadLevel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnSetPlayerData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnChangeOwner" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnPing" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnTransfer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnSetServerData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnConnect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnPlayerJoin" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnUpdateChannel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnSetChannelData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnHostChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnRenamePlayer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnDestroy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNEvents.OnPlayerLeave" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNEvents.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAQECIAAAAAAAACIABAAAAAABBggAACgBwgAAQAAAYA=</HashCode>
+      <FileName>Assets\TNet\Client\TNEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.GameClient">
+    <Position X="10" Y="6.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="TNet.GameClient.OnPacket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNGameClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.GameClient.OnGetFiles" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNGameClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.GameClient.OnLoadFile" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNGameClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.GameClient.OnGetChannels" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNGameClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Struct Name="TNet.GameClient.ExportCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNGameClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gQZhJri4KKyAIMDQEkFIY5VEAuolbigBpinwVMlDJFY=</HashCode>
+      <FileName>Assets\TNet\Client\TNGameClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.LobbyClient">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TNet.LobbyClient.OnListChange" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNLobbyClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAABIAAAAAAAAAAAAEAAABAAAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNLobbyClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNManager">
+    <Position X="36.5" Y="18.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TNet.TNManager.IsJoiningChannelFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNManager.ProcessPacketsFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNManager.LoadSceneFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNManager.LoadSceneAsyncFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>kccFKvuyQSgSIsDQMtdAT5RNxXhybGmnp5/0f9oWJM4=</HashCode>
+      <FileName>Assets\TNet\Client\TNManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNObject" BaseTypeListCollapsed="true">
+    <Position X="39" Y="18.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="TNet.TNObject.OnDestroyCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNObject.OnTransfer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.TNObject.OnDataChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Struct Name="TNet.TNObject.ForwardRecord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TNet.TNObject.CachedMethodInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Client\TNObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>jUA0CQhQCAIClhVQEMBAlTEJgGYJQABIAAwCRGAtlcA=</HashCode>
+      <FileName>Assets\TNet\Client\TNObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TNet.RFC" Collapsed="true">
+    <Position X="42.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>Assets\TNet\Client\TNRFC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.RCC" Collapsed="true">
+    <Position X="41" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\TNet\Client\TNRFC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.CachedFunc" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICAAQIARAAAAAABAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNRFC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNServerInstance" Collapsed="true">
+    <Position X="44.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBRBAAgEAKAAAAgBABEAATAAAABAAAgIIBgAAAIAAQA=</HashCode>
+      <FileName>Assets\TNet\Client\TNServerInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNSyncRigidbody">
+    <Position X="30.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAhgAAgCAEAAAABAYAgAAAAAIIAEAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Client\TNSyncRigidbody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNTcpLobbyClient">
+    <Position X="2" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAgBAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNTcpLobbyClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNUdpLobbyClient">
+    <Position X="4.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACAAgAAAAAEAAAAAQAAAAAAJAABAAAAAAEA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUdpLobbyClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.ComponentSerialization" Collapsed="true">
+    <Position X="42.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIYAQFAjDAABIACAAAREEAwAVTBABAIYQiAAJBAFCGg=</HashCode>
+      <FileName>Assets\TNet\Client\TNUnitySerializers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.UnityTools" Collapsed="true">
+    <Position X="41" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAChggABAgCCGAAAAAZECCAwACFAAAEAJACAEABiIZI=</HashCode>
+      <FileName>Assets\TNet\Client\TNUnityTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TNUpdater" Collapsed="true">
+    <Position X="46.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAFIAAIABABGAAkCAIAAAIAAAAEAAACgAAMACwAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.WorkerThread" Collapsed="true">
+    <Position X="44.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sgRAABAAAgAlAGCAAACAAAEQhAAhAEAJAEAAAAIAyAA=</HashCode>
+      <FileName>Assets\TNet\Client\WorkerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.DataNode">
+    <Position X="33" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TNet.DataNode.SaveType">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Common\DataNode.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEBKJAABAABQEAREBBIgACIgAAIFAyAAAAAAAAFgAjA=</HashCode>
+      <FileName>Assets\TNet\Common\DataNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Buffer" Collapsed="true">
+    <Position X="39.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAMAEAAEAgAoAQJAQIAEIAABCAEAACADgAJBAIEA=</HashCode>
+      <FileName>Assets\TNet\Common\TNBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Counter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEEAAgAAQAAAEAAAAAAAAACBEACAAAAAACAAAIBA=</HashCode>
+      <FileName>Assets\TNet\Common\TNCounter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TNet.FieldOrProperty" Collapsed="true">
+    <Position X="46.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAhAAAAAAABAAABAFAEIAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\TNet\Common\TNFieldOrProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.FieldOrPropertyExtensions" Collapsed="true">
+    <Position X="48" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAEAAAAAABAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNFieldOrProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.List&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUIAAEAEAAAAgBBACoAQBAQAAACAAAAACABAAJFQAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TNet.DataNodeContainer">
+    <Position X="7" Y="28.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Player">
+    <Position X="5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAABAAAAAgBAAAAABAAAECIgAAAAAAAAQAiA=</HashCode>
+      <FileName>Assets\TNet\Common\TNPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Serialization" Collapsed="true">
+    <Position X="44.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBMghEOIAoBmAAicAIMQAAAAbABAkYNgEBACggdAEwE=</HashCode>
+      <FileName>Assets\TNet\Common\TNSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.ServerList" Collapsed="true">
+    <Position X="48" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAAAgAEAABAAgAAAAAgAgBAAAAEBAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNServerList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TcpProtocol">
+    <Position X="3" Y="31.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TNet.TcpProtocol.Stage" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Common\TNTcpProtocol.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="TNet.TcpProtocol.OnCloseCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Common\TNTcpProtocol.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AVdAkgAAAiESIACgASAAQpARJAqCmDUEAAMJEBCioAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNTcpProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.DoNotObfuscate" Collapsed="true">
+    <Position X="42.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Tools" Collapsed="true">
+    <Position X="48" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcCQwAw4AgFQABEAIIAQSEDIqmECQgEEoEACKgEABI=</HashCode>
+      <FileName>Assets\TNet\Common\TNTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.UdpProtocol" Collapsed="true">
+    <Position X="39.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAECAAACCQEQAAAEAAQRIBAAAUABEkIACAABAEAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNUdpProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.UPnP" Collapsed="true">
+    <Position X="42.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAACACACAQIAAAAAAgQAqAAAIEAiAQCBAAAQKChQA=</HashCode>
+      <FileName>Assets\TNet\Common\TNUPnP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.IgnoredByTNet" Collapsed="true">
+    <Position X="39.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.SerializeProperties" Collapsed="true">
+    <Position X="46.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TypeExtensions" Collapsed="true">
+    <Position X="37.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBCAAAAAACIACAAsAAYBAAUCKBAAEGIAggERAAQAwI=</HashCode>
+      <FileName>Assets\TNet\Common\TypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.Channel">
+    <Position X="8" Y="32.25" Width="1.75" />
+    <NestedTypes>
+      <Struct Name="TNet.Channel.RFC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TNet.Channel.CreatedObject" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TNet.Channel.Info" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TNet.Channel.ForwardRecord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAhgAAQAAZCEAABFAAAgQREEEChEAJsiBgqgIIig=</HashCode>
+      <FileName>Assets\TNet\Server\TNChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.FileServer">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAgABBAAAQAAEAAAAQAAAAAABAUAAIAABAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNFileServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.GameServer">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TNet.GameServer.OnCustomPacket" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNGameServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.GameServer.OnPlayerAction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNGameServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TNet.GameServer.OnShutdown" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TNet\Server\TNGameServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wpREoIcXASwCqkLQhhEQIJOBjEQUKAbhNKggANAgI2A=</HashCode>
+      <FileName>Assets\TNet\Server\TNGameServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.LobbyServerLink">
+    <Position X="32" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgACAARAAQEAgAAAEIAAABAIAAAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNLobbyLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.LobbyServer">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAABAAAAAAAAgAIAAAAAAIAAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNLobbyServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TcpLobbyServerLink">
+    <Position X="33" Y="24" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAgBAAAADAABAABAAAoAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNTcpLobbyLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TcpLobbyServer">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAACCAAAACEAEAAABIAgMAAAAgAKCAAAAAoNAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNTcpLobbyServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.TcpPlayer">
+    <Position X="0.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMAAAAAAIAAAACgAAAAgBAgASAAAAEgI=</HashCode>
+      <FileName>Assets\TNet\Server\TNTcpPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.UdpLobbyServerLink">
+    <Position X="29.75" Y="24" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAGAABAAQAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNUdpLobbyLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TNet.UdpLobbyServer">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACEAAEAABAAgMAAAAgAIAAAAAAoMAA=</HashCode>
+      <FileName>Assets\TNet\Server\TNUdpLobbyServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.CRC" Collapsed="true">
+    <Position X="48" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAEAAAAAAAAAAAAAQAAAAAAgAAAAAAACAgBAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\CRC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.DataErrorException" Collapsed="true">
+    <Position X="35.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.InvalidParamException" Collapsed="true">
+    <Position X="42.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.Compression.LZ.BinTree">
+    <Position X="23.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACIAAEAIEAAAAQAcGJAACAQAAADMEhQAAICAAAAEIg=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzBinTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SevenZip.Compression.LZ.InWindow">
+    <Position X="21" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAACEEAAAJAAAQAAEIAAAAACAAkEEAAEAACAAAgAJI=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzInWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.Compression.LZ.OutWindow" Collapsed="true">
+    <Position X="37.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgCAAgAAABAAQAAAAAAAIAAACAAEAAgAACAAAIAFA=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzOutWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.Compression.LZMA.Base" Collapsed="true">
+    <Position X="35.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BYggACAAgEAAAAgohCABAASAIoBAAAEAAAEABAAAADQ=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzmaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.Compression.LZMA.Decoder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAkAAACAEgBAAEAAAAgAAAIMAAAAAAgQIAKQAAAMgA=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzmaDecoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SevenZip.Compression.LZMA.Encoder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mQaEpAWBCQQ7JFjQRAghOoCCEAOsgUDGCQEOgDxYAgA=</HashCode>
+      <FileName>Assets\TNet\LZMA\LzmaEncoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SevenZip.Compression.RangeCoder.Encoder" Collapsed="true">
+    <Position X="48" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAQEIBgCAAEAAIACAAABAgIAAAIAEgCAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SevenZip.Compression.RangeCoder.Decoder" Collapsed="true">
+    <Position X="41" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAQCAAACAAAEgAgAAAAAAAIAAAAAEACQAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalConfig">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAEEBAAAAACAAAAGAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Global\GlobalConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectToServer">
+    <Position X="24.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQCGAAAAAEIAACAAAAAAEAAAIAAAAAAAADkA=</HashCode>
+      <FileName>Assets\Scripts\Net\ConnectToServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myTnetServer">
+    <Position X="13.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgAAAADCAAAAAAAAAAAAAAgBEAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Network Learn\myTnetServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gaia.CameraController" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAGQIAADBBAoAAIASAIAMDgEgAAgAgAAxABAAEAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraSet" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Character_Elf\Scripts\CameraSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetThirdPerson" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQBAABAAAAAAAAAAAAIAAQgAAAAQAABAAACAEEA=</HashCode>
+      <FileName>Assets\Character_Elf\Scripts\NetThirdPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdPersonCharacter" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJSoKQAkAKQQAEACBAIAAUIEAghBgAIgRAKAIgAEhAg=</HashCode>
+      <FileName>Assets\Character_Elf\Scripts\ThirdPersonCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThirdPersonUserControl" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAiAAAAAgQAAAAAAAQAAAAAAQAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Character_Elf\Scripts\ThirdPersonUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreateCharacter" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAEAAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Create\CreateCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAAgAAAAAgCAAABAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelSceneManager01" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCAAAAACEAAAAEEAAAAAAAAhAQAAIBAAAIAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManager\LevelSceneManager01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuSceenManager" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQAgAgAACAAAAAEAggAAAACACAQAAAAEAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManager\MenuSceenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartSceneManager" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAQBAAAAACCAAAAAAAAAAAAAAAAAAAAAAAACBQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManager\StartSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowPanel" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Level_01\ShowPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchUI" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAACAAABAACAAQgAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Level_01\SwitchUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelUIManager01" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAQCAADAAAQAAAAAQEAAEgAAIACAAAAAAAUAAIAA=</HashCode>
+      <FileName>Assets\Scripts\UIManager\LevelUIManager01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuUIManager" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UIManager\MenuUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartUIManager" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UIManager\StartUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.FirstPerson.FirstPersonController" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQQChBAKAiAUMMQAAAwiSAAAAQAigAAUGCIAQAgBAQA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.FirstPerson.HeadBob" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAEQICAAACAAAAQgAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.FirstPerson.MouseLook" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAGACABAAAIAAAAAAggBEQAIAAAgEACACAACAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAhAIgEiAIAEAAgAAgAEACAAACgAIIEAAAAAAUIQA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.ThirdPerson.AICharacterControl" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAACAAAQAAIAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mAICAgAAgBKAAwAAAAAAAAAAAAIBAAgAFIAAAABASAQ=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.VirtualInput" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAACAAAAgBKAAwAAAAAABAAAAEIAAAgIEIABAABCSAQ=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAABCAAwAAAAAAAAAAAAAAAAgAAIAAAIAiSAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAABCAAwAAAAAAAAAAAAAAAAgAAIAAAAACSAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.CurveControlledBob" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAAAAAAASAwAAAAABASAAAABAABAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Utility\CurveControlledBob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.FOVKick" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACQAAACAAAAAAAAAACAAABAIBAAgAAAAgAAAAEAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Utility\FOVKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.LerpControlledBob" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAABIgAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Utility\LerpControlledBob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.BrakeLight" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.CarAIControl" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kCUAIgQAEhAAAEQAAAAAAAIQEAAAAREGAAQgAAABAEI=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.CarAudio" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QVQAABCAgOECABAUAgQABBIQEAIAAAABAgERAAkAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.CarController" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YQAAFAhACLAkIQRAiUAEAAIQkFSRIJEEAQEkIAACgEI=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.CarSelfRighting" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAEAAAAAAJAAAAAAAAEAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.CarUserControl" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.Mudguard" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.SkidTrail" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.Suspension" Collapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\Suspension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Vehicles.Car.WheelEffects" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAYAAAgACAIAAAIAAAAAAJAAAAAAICACAgAEAAQAIA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sy.CameraController" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgQgAACBBAAAghAIIIAwBgAgIQgAAAAiAAAAEEIA=</HashCode>
+      <FileName>Assets\Scripts\Character\ThirdPerson\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sy.ThirdCharacter" Collapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISoCQAgAKAQAAAAAAAAAAIAAABBgAIARACAAAAEgAg=</HashCode>
+      <FileName>Assets\Scripts\Character\ThirdPerson\ThirdCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sy.ThirdUserControl" Collapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAiAAAAAgQAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\ThirdPerson\ThirdUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="QuaternionD" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQhIAAAAABgAE8AsAAABACiBAIIIAAEhgARDBgiA=</HashCode>
+      <FileName>Assets\TNet\Common\QuaternionD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Vector4i" Collapsed="true">
+    <Position X="37.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TNet.Datagram" Collapsed="true">
+    <Position X="42.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNDatagram.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TNet.ObsInt" Collapsed="true">
+    <Position X="44.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAACBAAAAQAAEAAAAJBACAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TNet.Vector2D" Collapsed="true">
+    <Position X="48" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAIAABACBAAE8IcBaAAAGABMQ4BAgUFgQgEAgiA=</HashCode>
+      <FileName>Assets\TNet\Common\Vector2D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TNet.Vector3D" Collapsed="true">
+    <Position X="35.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAggMBABACBAAE8JcBSCABCABMRYBAgUHgQwMQgiA=</HashCode>
+      <FileName>Assets\TNet\Common\Vector3D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SevenZip.Compression.RangeCoder.BitEncoder" Collapsed="true">
+    <Position X="37.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIBAAAAAEAAAABAAACAAgAAACAQCAgAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoderBit.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SevenZip.Compression.RangeCoder.BitDecoder" Collapsed="true">
+    <Position X="35.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAgAAACAQCQgAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoderBit.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SevenZip.Compression.RangeCoder.BitTreeEncoder" Collapsed="true">
+    <Position X="41" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABgABAAAAAEAAAAAAAAAAAAAAAAAgCAAAAAQA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoderBitTree.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SevenZip.Compression.RangeCoder.BitTreeDecoder" Collapsed="true">
+    <Position X="39.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgCQAAAAQA=</HashCode>
+      <FileName>Assets\TNet\LZMA\RangeCoderBitTree.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TNet.IStartable" Collapsed="true">
+    <Position X="37.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.IUpdateable" Collapsed="true">
+    <Position X="39.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.ILateUpdateable" Collapsed="true">
+    <Position X="46.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.IInfrequentUpdateable" Collapsed="true">
+    <Position X="44.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.IDataNodeSerializable" Collapsed="true">
+    <Position X="42.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\DataNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.TList" Collapsed="true">
+    <Position X="42.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAQAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.IBinarySerializable" Collapsed="true">
+    <Position X="35.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TNet.IConnection" Collapsed="true">
+    <Position X="41" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAABAA=</HashCode>
+      <FileName>Assets\TNet\Common\TNTcpProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.ICodeProgress" Collapsed="true">
+    <Position X="37.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.ICoder" Collapsed="true">
+    <Position X="39.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.ISetCoderProperties" Collapsed="true">
+    <Position X="48" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.IWriteCoderProperties" Collapsed="true">
+    <Position X="41" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.ISetDecoderProperties" Collapsed="true">
+    <Position X="35.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.Compression.LZ.IInWindowStream">
+    <Position X="26" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAEIAAAAAAAAAEAAAAAACAAAAAIA=</HashCode>
+      <FileName>Assets\TNet\LZMA\IMatchFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SevenZip.Compression.LZ.IMatchFinder">
+    <Position X="26.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\IMatchFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TNet.Target" Collapsed="true">
+    <Position X="39.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAAAAEAQAAAAAACAAAAIAAAAACAAA=</HashCode>
+      <FileName>Assets\TNet\Client\TNTarget.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TNet.Packet" Collapsed="true">
+    <Position X="37.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBcTigIEQhqmZYT6Si5GQgAywBQegALCFiIAZRVAAgA=</HashCode>
+      <FileName>Assets\TNet\Common\TNPacket.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SevenZip.CoderPropID" Collapsed="true">
+    <Position X="35.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UBEAAAAAAAQAAAQAEAACAAAAAgAAAAAMAACACCQAAAA=</HashCode>
+      <FileName>Assets\TNet\LZMA\ICoder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.Vehicles.Car.CarDriveType" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.Vehicles.Car.SpeedType" Collapsed="true">
+    <Position X="20" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character_Elf\Standard Assets\Vehicles\Car\Scripts\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
